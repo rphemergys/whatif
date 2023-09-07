@@ -1,6 +1,5 @@
 application: piagui_whatif {
   label: "Escenarios WhatIf"
-  #url: "https://localhost:8080/bundle.js"
   # use file for production deployment
   file: "/apps/bundle.js"
   entitlements: {
@@ -10,7 +9,7 @@ application: piagui_whatif {
     new_window_external_urls: []
     use_form_submit: yes
     use_embeds: yes
-    use_downloads: no
+    use_downloads: yes
     use_iframes: yes
     use_clipboard: no
     core_api_methods: ["all_lookml_models", "all_dashboards", "all_looks", "run_look", "create_sql_query", "run_sql_query", "me"]
